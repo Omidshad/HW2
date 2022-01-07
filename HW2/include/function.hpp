@@ -1,0 +1,17 @@
+void splitCommand(char*&, std::vector<account>&, bool&);
+unsigned int cardNumberGenerator(const std::vector<account>&);
+bool usernameValidator(const std::string&);
+bool ipValidator(const std::string&);
+int findUsername(const std::string&, const std::vector<account>);
+int findIP(const std::string&, const std::vector<account>&);
+void addTransaction(bool, std::string, std::string, long double, int, std::vector<account>&, bool);
+bool printInfo(std::string, std::vector<account>&);
+bool checkBankruptcy(const long double&, const std::vector<account>&);
+void payLoan(const std::string&, const long double&, std::vector<account>&);
+void getLoan(const std::string&, const std::string&, const long double&, std::vector<account>&);
+void addProfits(const std::string&, std::vector<account>&);
+void transfer(const std::string&, const std::string&, std::string&, const long double&, std::vector<account>&);
+void depositAndWithdraw(bool, const std::string&, const std::string&, const long double&, std::vector<account>&, bool&);
+void renewal(const std::string&, const std::string&, std::vector<account>&);
+void addIP(const std::string&, const std::string&, std::vector<account>&);  
+void addAccount(std::string&, char*&, std::vector<account>&);
